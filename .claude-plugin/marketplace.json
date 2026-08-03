@@ -1,0 +1,21 @@
+{
+  "name": "itamaker-runlens-skill",
+  "owner": {
+    "name": "Jonny"
+  },
+  "metadata": {
+    "description": "Reusable runlens trace-analysis skill from itamaker",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "itamaker-runlens-skill",
+      "description": "Analyze JSONL agent/tool execution traces for failures, flaky paths, latency outliers, and token usage",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/runlens"
+      ]
+    }
+  ]
+}

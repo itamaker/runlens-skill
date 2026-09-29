@@ -1,6 +1,6 @@
 # runlens
 
-> **Moved.** The skill in this repository now lives in [itamaker/skills](https://github.com/itamaker/skills/tree/main/skills/agent-tooling/runlens), together with my other skills. Install from there: `npx skills@latest add itamaker/skills --skill=runlens`.
+> **Moved.** The Claude Code skill for this tool now lives in [itamaker/skills](https://github.com/itamaker/skills/tree/main/skills/agent-tooling/runlens), together with my other skills. Install from there: `npx skills@latest add itamaker/skills --skill=runlens`.
 >
 > This repository still hosts the command-line tool's source and releases.
 
@@ -113,18 +113,14 @@ go build -o dist/runlens .
 
 ## Claude Code skill
 
-This repo also ships a Claude Code skill. Install standalone:
-
-```bash
-npx skills add itamaker/runlens-skill
-```
-
-Or via the [`itamaker/skills`](https://github.com/itamaker/skills) plugin marketplace:
+The Claude Code skill for this tool lives in [itamaker/skills](https://github.com/itamaker/skills/tree/main/skills/agent-tooling/runlens). Install it from there:
 
 ```text
 /plugin marketplace add itamaker/skills
-/plugin install runlens-skill@itamaker-skills
+/plugin install itamaker-skills@itamaker
 ```
+
+Or install just this skill with `npx skills@latest add itamaker/skills --skill=runlens`. The skill drives this command-line tool, so install the tool first.
 
 ## Contributors ✨
 

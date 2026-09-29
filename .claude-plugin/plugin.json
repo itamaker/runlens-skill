@@ -1,5 +1,0 @@
-{
-  "name": "runlens-skill",
-  "description": "Analyze JSONL agent/tool execution traces for failures, flaky paths, latency outliers, and token usage",
-  "version": "1.0.0"
-}

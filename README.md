@@ -60,6 +60,16 @@ For a deeper diagnosis:
 runlens diagnose -input examples/run.jsonl
 ```
 
+### Help and version
+
+```bash
+runlens -h                 # usage (also --help, help)
+runlens summary -h         # flags of one subcommand (also diagnose, tui)
+runlens --version          # prints "runlens <version>" (also version)
+```
+
+Help and version go to stdout and exit `0`. An unknown subcommand prints the usage to stderr and exits `2`. Running `runlens` with no arguments opens the interactive UI, so scripts and coding agents should call `summary` or `diagnose` directly.
+
 ## Requirements
 
 - Go `1.22+`
